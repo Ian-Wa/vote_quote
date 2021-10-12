@@ -1,0 +1,28 @@
+<div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+  <div class="card-body">
+    <p>Publisher:
+      {{quote.name}}
+    </p>
+    <p>
+     Original Author:
+      {{quote.author}}
+    </p>
+    <p> {{quote.completeDate|dateCount}} days since this quote was created</p>
+    <div class="row">
+      <div class="col-md-6">
+        <a href="" (click)="voteUp()">
+          <i class="fas fa-thumbs-up "></i>
+        </a> ({{likes}})
+      </div>
+      <div class="col-md-6">
+        <a href="" (click)="voteDown()">
+          <i class="fas fa-thumbs-down "></i>
+        </a> ({{disLikes}})
+      </div>
+    </div>
+    
+    <button class="btn btn-danger ml-5" (click)='quoteDelete(true)'> Delete Quote </button>
+  </div>
+</div>
+
+
