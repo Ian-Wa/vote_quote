@@ -28,6 +28,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 - CSS
 - Bootstrap
 - Angular CLI
+## License
+This project is under [MIT](license) license
 ## Contact
 Incase of any queries contact me at my [email](ian.wanjira@student.moringaschool.com)
 
