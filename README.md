@@ -32,6 +32,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 This project is under [MIT](LICENSE) license
 ## Contact
 Incase of any queries contact me at my [email](ian.wanjira@student.moringaschool.com)
+address : NAIROBI -KENYA
 ## Copyright
 copyright (c) 2021 vote_quote
 
